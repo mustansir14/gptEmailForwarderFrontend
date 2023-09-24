@@ -1,0 +1,75 @@
+/* Styling for the Configuration Form */
+
+.config-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}
+
+/* Style for the Receiver Email groups */
+
+.receiver-group {
+  display: flex;
+  align-items: center;
+}
+
+.receiver-group input[type="text"] {
+  flex: 1;
+  margin-right: 10px;
+}
+
+button {
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  width: 70px;
+}
+
+.remove-btn {
+  background-color: #ff4444;
+}
+
+.add-btn {
+  background-color: #007bff;
+}
+
+.receiver-group button:hover {
+  background-color: #ff3333;
+}
+
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 8px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  resize: vertical; /* Allow vertical resizing */
+}
